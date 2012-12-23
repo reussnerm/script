@@ -1,0 +1,4 @@
+script
+======
+
+mostly bash script
