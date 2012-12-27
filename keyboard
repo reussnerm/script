@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+setxkbmap -model thinkpad
+setxkbmap -option 'grp:alt_space_toggle,ctrl:nocaps' 'ch(fr),us'

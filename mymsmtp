@@ -1,0 +1,3 @@
+#!/bin/bash
+
+tee >(lbdb-fetchaddr -a)|/usr/bin/msmtp $@
