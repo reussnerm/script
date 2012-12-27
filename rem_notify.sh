@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Display notification on the screen
 # on click open wyrd in an xterm
-echo "naughty.notify({run = function () awful.util.spawn(\"xterm -e bash -c 'wyrd'\") end,text = \"$*\",title = \"Reminder\",position = \"top_right\", timeout = 0,icon=\"/home/steelido/.config/awesome/icons2/AwakenIcon.png\", fg=\"#ffggcc\", bg=\"#bbggcc\",screen = 1, ontop = false})"| ~/.bin/dbus_wrapper_no_x.sh
+echo "naughty.notify({run = function () awful.util.spawn(\"xterm -e bash -c 'wyrd'\") end,text = \"$*\",title = \"Reminder\",position = \"top_right\", timeout = 0,icon=\"/home/reussnerm/.config/awesome/icons2/AwakenIcon.png\", fg=\"#ffggcc\", bg=\"#bbggcc\",screen = 1, ontop = false})"| ~/.bin/dbus_wrapper_no_x.sh
 
 #naughty.notify({
 #	text = "notification",
